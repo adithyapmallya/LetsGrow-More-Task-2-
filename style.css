@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+body{
+    background-color: rgb(157, 61, 168);
+}
+
+header {
+    padding: 15px;
+    color: white;
+    background-color: rgb(207, 92, 225);
+    height: 60px;
+    color: rgb(239, 115, 235);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    visibility: hidden;
+}
+
+header:hover img {
+    visibility: visible;
+    transition: 0.3s;
+    transform: translateX(16vw);
+}
+h1 {
+    font-size: 40px;
+    font-weight: 200;
+    user-select: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: auto;
+}
+header button {
+    padding: 9px 25px;
+    font-size: 20px;
+    background-color: rgb(168, 3, 168);
+    color:rgb(222, 118, 223) ;
+    cursor: pointer;
+    border-radius: 20px;
+}
+header button:hover {
+    color: rgb(112, 88, 112);
+    background-color: #dd7ec7;
+}
+.cards {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #e984d5;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    
+}
+.card img{
+    height: 150px;
+    width: 175px;
+}
+.card:hover {
+    color: white;
+    background-color:#c553df; 
+}
+
+.card .card-content h3 {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.card .card-content h2 {
+    font-size: 15px;
+    font-weight: 100;
+}
